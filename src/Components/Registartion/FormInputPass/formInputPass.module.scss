@@ -1,0 +1,56 @@
+.formInputPass {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+    
+    &__label {
+        font-size: 13px;
+        font-weight: 400;
+        color: #BBC6F2;
+    }
+    
+    &__field {
+        padding: 0 11px 0 14px;
+        height: 38px;
+        border-radius: 6px;
+        background-color: #F1F3F6;
+        border: 1px solid #E8EAF0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        transition: border-color 0.2s ease;
+
+        &.focused {
+            border: 1px solid #5AB828;
+        }
+
+        &.error {
+            border: 1px solid #F91717;
+        }
+
+        img {
+            cursor: pointer;
+        }
+    }
+
+    &__input {
+        border: none;
+        outline: none;
+        background-color: #F1F3F6;
+        width: 100%;
+        font-size: 13px;
+        font-weight: 400;
+
+        &::placeholder {
+            color: #777B8B;
+        }
+    }
+
+    &__error {
+        font-size: 13px;
+        color: #F91717;
+        font-weight: 400;
+    }
+}

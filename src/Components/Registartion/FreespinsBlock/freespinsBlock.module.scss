@@ -1,0 +1,73 @@
+@keyframes pulse {
+    0% {
+        transform: translateY(-60px) scale(1);
+    }
+    50% {
+        transform: translateY(-60px) scale(1.1);
+    }
+    100% {
+        transform: translateY(-60px) scale(1);
+    }
+}
+
+.freespinsBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    z-index: 1;
+    font-family: 'MTS Sans';
+
+    &__bg {
+        position: absolute;
+        top: 0;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    &__spinsCount {
+        font-size: 274px;
+        font-weight: 900;
+        line-height: 198px;
+        letter-spacing: 0%;
+        text-shadow: 0 25px 1px #000;
+        transform: translateY(-40px);
+        animation: pulse 1.2s ease-in-out infinite;
+    }
+
+    &__spinsText {
+        color: #00BDFD;
+        font-size: 77.49px;
+        font-weight: 900;
+        line-height: 55.97px;
+        margin-top: 15px;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+    }
+
+    &__spinsForRegistr {
+        font-size: 48.19px;
+        font-weight: 800;
+        letter-spacing: 0%;
+        line-height: 34.8px;
+        text-shadow: 0 7px 1px #000;
+        position: relative;
+        z-index: 1;
+        margin-top: 20px;
+    }
+
+    &__fireLeft, &__fireRight {
+        position: absolute;
+        top: -80px;
+        left: -139px;
+        width: 810px;
+        height: 450px;
+    }
+
+    &__fireRight {
+        transform:  scaleX(-1);
+    }
+}

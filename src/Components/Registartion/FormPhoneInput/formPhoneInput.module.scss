@@ -1,0 +1,70 @@
+.formPhoneInput {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+
+    &__label {
+        font-size: 13px;
+        font-weight: 400;
+        color: #BBC6F2;
+    }
+
+    &__wrap {
+        display: flex;
+        height: 38px;
+        border-radius: 6px;
+        width: 100%;
+        background-color: #F1F3F6;
+        border: 1px solid #E8EAF0;
+        transition: border-color 0.2s ease;
+
+        &.focused {
+            border-color: #5AB828;
+        }
+
+        &.error {
+            border-color: #F91717;
+        }
+    }
+
+    &__country {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px 0 0 6px;
+        background-color: #fff;
+        min-width: 40px;
+        
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    &__field {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 0 11px 0 14px;
+    }
+
+    &__input {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        width: 100%;
+        font-size: 13px;
+        font-weight: 400;
+
+        &::placeholder {
+            color: #777B8B;
+        }
+    }
+
+    &__error {
+        font-size: 12px;
+        color: #F91717;
+        font-weight: 400;
+    }
+}

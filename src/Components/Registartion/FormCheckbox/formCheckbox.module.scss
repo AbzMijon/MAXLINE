@@ -1,0 +1,63 @@
+.formCheckbox {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+
+    &__label {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    &__input {
+        position: absolute;
+        opacity: 0;
+        width: 0;
+        height: 0;
+
+        &:checked + .formCheckbox__box {
+            background-color: #5AB828;
+            border-color: #5AB828;
+        }
+
+        &:checked + .formCheckbox__box .formCheckbox__icon {
+            opacity: 1;
+        }
+    }
+
+    &__box {
+        width: 18px;
+        height: 18px;
+        border: 1px solid #E8EAF0;
+        border-radius: 4px;
+        background-color: #F1F3F6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s ease;
+        flex-shrink: 0;
+    }
+
+    &__icon {
+        width: 12px;
+        height: 12px;
+        opacity: 0;
+        transition: opacity 0.2s ease;
+        filter: brightness(0) invert(1);
+    }
+
+    &__text {
+        font-size: 11px;
+        color: #BBC6F2;
+        line-height: 1.4;
+    }
+
+    &__error {
+        font-size: 12px;
+        color: #F91717;
+        margin-left: 26px;
+    }
+}

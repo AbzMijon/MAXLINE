@@ -1,0 +1,97 @@
+.registartionPage {
+    background-color: #52098B;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+    &__registrAside {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 580px;
+        background-color: #000000B2;
+        backdrop-filter: blur(4px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 4;
+    }
+
+    &__bgWrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 1;
+        filter: opacity(48%);
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 1;
+        padding-top: 80px;
+    }
+
+    &__blueGold, &__gold, &__sphere, &__zeus {
+        position: absolute;
+        z-index: 2;
+    }
+
+    &__blueGold {
+        top: 32px;
+        right: 409px;
+    }
+
+    &__gold {
+        bottom: 0;
+        left: 46%;
+    }
+
+    &__zeus {
+        bottom: 0;
+        left: 43px;
+        z-index: 2;
+    }
+
+    &__freespins {
+        position: absolute;
+        top: 51%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 3;
+    }
+
+    &__sphere {
+        left: 0;
+        bottom: 0px;
+    }
+
+    &__blueBlur {
+        background-color: #714AFFC7;
+        filter: blur(101px);
+        width: 835px;
+        height: 1668px;
+        position: absolute;
+        top: -135%;
+        right: 62px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    &__purpleBlur {
+        background-color: #AB4AFFC7;
+        width: 835px;
+        height: 1668px;
+        filter: blur(101px);
+        border-radius: 50%;
+        position: absolute;
+        bottom: -85%;
+        left: 12px;
+        z-index: 1;
+    }
+}
