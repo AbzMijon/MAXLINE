@@ -36,6 +36,7 @@
         text-shadow: 0 25px 1px #000;
         transform: translateY(-40px);
         animation: pulse 1.2s ease-in-out infinite;
+        -webkit-text-stroke: 7px #000;
     }
 
     &__spinsText {
@@ -58,6 +59,7 @@
         position: relative;
         z-index: 1;
         margin-top: 20px;
+        -webkit-text-stroke: 1.5px #000;
     }
 
     &__fireLeft, &__fireRight {

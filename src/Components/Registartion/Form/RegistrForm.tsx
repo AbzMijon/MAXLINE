@@ -70,7 +70,7 @@ export default function RegistrForm() {
                     />
                 </div>
                 <Button 
-                    text={loginMutation.isPending ? 'Отправка...' : 'Зарегистрироваться'}
+                    text={loginMutation.isPending ? 'Отправка...' : 'регистрация'}
                     type="submit"
                     disabled={loginMutation.isPending}
                 />
