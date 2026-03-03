@@ -35,6 +35,9 @@
         position: relative;
         z-index: 1;
         padding-top: 80px;
+        img {
+            width: 17.3%;
+        }
     }
 
     &__blueGold, &__gold, &__sphere, &__zeus {
@@ -45,17 +48,20 @@
     &__blueGold {
         top: 32px;
         right: 395px;
+        width: 20.2%;
     }
 
     &__gold {
         bottom: 0;
         left: 46%;
+        width: 23.83%;
     }
 
     &__zeus {
         bottom: 0;
         left: 43px;
         z-index: 2;
+        width: 68.6vh;
     }
 
     &__freespins {
@@ -93,5 +99,59 @@
         bottom: -85%;
         left: 12px;
         z-index: 1;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .registartionPage {
+        overflow: hidden;
+        &__bgWrapper {
+            object-fit: cover;
+        }
+
+        &__registrAside {
+            border-radius: 24px 24px 0 0;
+            top: unset;
+            bottom: 0;
+            width: 100vw;
+            height: 426px;
+            background-color: #0F0219;
+        }
+
+        &__gold, &__blueBlur, &__purpleBlur {
+            display: none;
+        }
+
+        &__blueGold {
+            top: 41%;
+            right: -100px;
+            width: 260px;
+            z-index: 5;
+        }
+
+        &__logo {
+            padding-top: 35px;
+
+            img {
+                width: 174.55px;
+            }
+        }
+
+        &__sphere {
+            top: 35%;
+            right: 10%;
+            width: 200px;
+        }
+
+        &__freespins {
+            top: 195px;
+        }
+
+        &__zeus {
+            bottom: 19.8%;
+            left: 46%;
+            transform: translateX(-50%);
+            width: 370px;
+        }
     }
 }

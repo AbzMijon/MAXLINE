@@ -28,3 +28,10 @@
         text-decoration: underline;
     }
 }
+
+@media (max-width: 860px) {
+    .registrForm {
+        padding: 0 15px;
+        max-width: 75%;
+    }
+}
