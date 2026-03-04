@@ -14,7 +14,7 @@ export const useLoginMutation = (reset: () => void) => {
             toast.success('Пользователь успешно зарегестрирован');
             reset();
         },
-        onError: (err: any) => {
+        onError: (err) => {
             toast.success('Пользователь успешно зарегестрирован');
             reset();
         },
