@@ -113,17 +113,19 @@
         }
 
         &__freespins {
-            top: 35%;
-            left: 30%;
+            top: 40%;
+            left: 40%;
         }
 
         &__zeus {
-            width: 550px;
+            width: 350px;
         }
 
         &__logo {
             justify-content: start;
             padding-left: 24vw;
+            position: relative;
+            z-index: 3;
         }
     }
 }
@@ -178,7 +180,7 @@
             bottom: 19.8%;
             left: 46%;
             transform: translateX(-50%);
-            width: 370px;
+            width: 340px;
         }
 
         &__logo {
@@ -196,7 +198,7 @@
     }
 }
 
-@media (max-height: 888px) {
+@media (max-height: 830px) {
     .registartionPage {
         &__zeus {
             bottom: 15%;

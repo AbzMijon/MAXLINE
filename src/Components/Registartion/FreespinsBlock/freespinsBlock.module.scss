@@ -75,6 +75,53 @@
     }
 }
 
+@media (max-width: 1725px) {
+    .freespinsBlock {
+
+        &__bg {
+            width: 480px;
+        }
+
+        &__spinsCount {
+            font-size: 180px;
+            line-height: 151px;
+            text-shadow: 0 13px 1px #000;
+        }
+
+        &__spinsText {
+            font-size: 39px;
+            line-height: 28.6px;
+            margin-top: 25px;
+        }
+
+        &__spinsForRegistr {
+            font-size: 25px;
+            line-height: 18px;
+            margin-top: 10px;
+            text-shadow: 0 4px 1px #000;
+        }
+
+        &__fireLeft, &__fireRight {
+            width: 800px;
+            height: 320px;
+            top: -50px;
+            left: -65%;
+        }
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: translateY(-15px) scale(1);
+        }
+        50% {
+            transform: translateY(-15px) scale(1.1);
+        }
+        100% {
+            transform: translateY(-15px) scale(1);
+        }
+    }
+}
+
 @media (max-width: 1125px) {
     .freespinsBlock {
 
@@ -114,18 +161,6 @@
 
         &__fireRight {
             transform: scaleX(-1) translateX(50%);
-        }
-    }
-
-    @keyframes pulse {
-        0% {
-            transform: translateY(-15px) scale(1);
-        }
-        50% {
-            transform: translateY(-15px) scale(1.1);
-        }
-        100% {
-            transform: translateY(-15px) scale(1);
         }
     }
 }
