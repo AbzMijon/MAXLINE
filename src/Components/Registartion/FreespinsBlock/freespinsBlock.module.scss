@@ -71,7 +71,7 @@
     }
 
     &__fireRight {
-        transform:  scaleX(-1);
+        transform: scaleX(-1);
     }
 }
 
@@ -106,7 +106,14 @@
             height: 270px;
             top: -50px;
             left: 50%;
+        }
+
+        &__fireLeft {
             transform: translateX(-50%);
+        }
+
+        &__fireRight {
+            transform: scaleX(-1) translateX(50%);
         }
     }
 
@@ -134,7 +141,6 @@
             height: 240px;
             top: -50px;
             left: 50%;
-            transform: translateX(-50%);
         }
 
         &__spinsText {
