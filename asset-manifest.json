@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/MAXLINE/static/css/main.249765f1.css",
-    "main.js": "/MAXLINE/static/js/main.8badb343.js",
+    "main.js": "/MAXLINE/static/js/main.71dc3534.js",
     "static/css/914.6c5711f0.chunk.css": "/MAXLINE/static/css/914.6c5711f0.chunk.css",
-    "static/js/914.10f6afc9.chunk.js": "/MAXLINE/static/js/914.10f6afc9.chunk.js",
+    "static/js/914.150d0460.chunk.js": "/MAXLINE/static/js/914.150d0460.chunk.js",
     "static/js/453.b72a41ed.chunk.js": "/MAXLINE/static/js/453.b72a41ed.chunk.js",
     "static/js/178.c628d217.chunk.js": "/MAXLINE/static/js/178.c628d217.chunk.js",
     "static/media/fireLeft.webm": "/MAXLINE/static/media/fireLeft.864e2de387e1e60beee1.webm",
@@ -83,14 +83,14 @@
     "index.html": "/MAXLINE/index.html",
     "static/media/checkIcon.svg": "/MAXLINE/static/media/checkIcon.7021c0ac5838653dba6ee98ffc587077.svg",
     "main.249765f1.css.map": "/MAXLINE/static/css/main.249765f1.css.map",
-    "main.8badb343.js.map": "/MAXLINE/static/js/main.8badb343.js.map",
+    "main.71dc3534.js.map": "/MAXLINE/static/js/main.71dc3534.js.map",
     "914.6c5711f0.chunk.css.map": "/MAXLINE/static/css/914.6c5711f0.chunk.css.map",
-    "914.10f6afc9.chunk.js.map": "/MAXLINE/static/js/914.10f6afc9.chunk.js.map",
+    "914.150d0460.chunk.js.map": "/MAXLINE/static/js/914.150d0460.chunk.js.map",
     "453.b72a41ed.chunk.js.map": "/MAXLINE/static/js/453.b72a41ed.chunk.js.map",
     "178.c628d217.chunk.js.map": "/MAXLINE/static/js/178.c628d217.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.249765f1.css",
-    "static/js/main.8badb343.js"
+    "static/js/main.71dc3534.js"
   ]
 }
