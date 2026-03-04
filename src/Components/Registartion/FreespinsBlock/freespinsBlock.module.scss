@@ -75,11 +75,11 @@
     }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1125px) {
     .freespinsBlock {
 
         &__bg {
-            width: 90vw;
+            width: 400px;
         }
 
         &__spinsCount {
@@ -102,7 +102,7 @@
         }
 
         &__fireLeft, &__fireRight {
-            width: 110vw;
+            width: 500px;
             height: 270px;
             top: -50px;
             left: 50%;
@@ -119,6 +119,27 @@
         }
         100% {
             transform: translateY(-15px) scale(1);
+        }
+    }
+}
+
+@media (max-width: 410px) {
+    .freespinsBlock {
+        &__bg {
+            width: 350px;
+        }
+
+        &__fireLeft, &__fireRight {
+            width: 430px;
+            height: 240px;
+            top: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        &__spinsText {
+            line-height: 15.6px;
+            margin-top: 15px;
         }
     }
 }

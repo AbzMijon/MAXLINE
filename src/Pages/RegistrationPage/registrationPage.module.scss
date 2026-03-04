@@ -170,7 +170,8 @@
         }
 
         &__freespins {
-            top: 195px;
+            top: 25%;
+            left: 50%;
         }
 
         &__zeus {
@@ -178,6 +179,43 @@
             left: 46%;
             transform: translateX(-50%);
             width: 370px;
+        }
+
+        &__logo {
+            padding-left: 0;
+            justify-content: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .registartionPage {
+        &__freespins {
+            top: 20%;
+        }
+    }
+}
+
+@media (max-height: 888px) {
+    .registartionPage {
+        &__zeus {
+            bottom: 15%;
+        }
+    }
+}
+
+@media (max-height: 740px) {
+    .registartionPage {
+        &__zeus {
+            display: none;
+        }
+
+        &__logo {
+            padding-top: 10px;
+        }
+
+        &__freespins {
+            top: 22%;
         }
     }
 }
