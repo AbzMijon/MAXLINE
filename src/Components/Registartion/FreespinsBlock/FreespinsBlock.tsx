@@ -12,9 +12,8 @@ export default function FreespinsBlock() {
                 src={freeSpinsBG} 
                 alt="" 
                 className={styles.freespinsBlock__bg}
-                loading="lazy"
             />
-            
+
             <video
                 autoPlay
                 loop
