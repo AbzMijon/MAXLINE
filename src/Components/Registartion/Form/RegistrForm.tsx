@@ -29,7 +29,7 @@ export default function RegistrForm() {
 
     const loginMutation = useLoginMutation(reset);
 
-    const onSubmit: SubmitHandler<FormData> = async (data: FormData) => {
+    const onSubmit: SubmitHandler<FormData> = (data) => {
         loginMutation.mutate(data);
     };
 
@@ -58,15 +58,11 @@ export default function RegistrForm() {
                         register={register}
                         name="agreement"
                         label={ <p>Мне больше 21 года. <br /> Я согласен и принимаю <span className={styles.registrForm__checkboxUnderlinedText}>«Правила приема ставок»</span> и <span className={styles.registrForm__checkboxUnderlinedText}>«Политику конциденциальности»</span> </p>  }
-                        /* error={errors.agreement}
-                        required */
                     />
                     <FormCheckbox<FormData>
                         register={register}
                         name="bonuses"
                         label={ <p>Я принимаю участие и согласен с <span className={styles.registrForm__checkboxUnderlinedText}>условиями бонуса</span> </p>  }
-                        /* error={errors.bonuses}
-                        required */
                     />
                 </div>
                 <Button 

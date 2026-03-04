@@ -1,8 +1,8 @@
 import { create, StateCreator } from 'zustand';
 
 interface IUser {
-    id: number;
-    username: string;
+    phone: string;
+    password: string;
 }
 
 type registrationState = {
@@ -19,3 +19,5 @@ const registrationStore: StateCreator<registrationState> = (set, get) => ({
 });
 
 export const useRegistrationStore = create(registrationStore);
+
+// Я не придумал куда в тестовом задании можно логически всунуть использования Zustand поэтому оставлю это тут как банальный пример store для юзера

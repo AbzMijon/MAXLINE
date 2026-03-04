@@ -20,8 +20,8 @@ export default function FormInputPass<T extends FieldValues>({
     label,
 }: FormInputPassProps<T>) {
 
-    const [showPassword, setShowPassword] = useState<boolean>(false);
-    const [isFocused, setIsFocused] = useState<boolean>(false);
+    const [showPassword, setShowPassword] = useState(false);
+    const [isFocused, setIsFocused] = useState(false);
 
     const handleSwitchShowPasswordMode = () => {
         setShowPassword(!showPassword);

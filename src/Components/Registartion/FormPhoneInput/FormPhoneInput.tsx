@@ -19,7 +19,7 @@ export default function FormPhoneInput<T extends FieldValues>({
     label,
 }: FormPhoneInputProps<T>) {
 
-    const [isFocused, setIsFocused] = useState<boolean>(false);
+    const [isFocused, setIsFocused] = useState(false);
 
     const handleFocus = () => {
         setIsFocused(true);
@@ -40,7 +40,7 @@ export default function FormPhoneInput<T extends FieldValues>({
                 </div>
                 <div className={styles.formPhoneInput__field}>
                     <input
-                        type={'text'}
+                        type="text"
                         className={styles.formPhoneInput__input}
                         placeholder={placeholder}
                         onFocus={handleFocus}

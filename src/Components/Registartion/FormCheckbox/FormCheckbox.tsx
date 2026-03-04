@@ -5,7 +5,7 @@ import checkIcon from '../../../assets/icons/checkIcon.svg';
 interface FormCheckboxProps<T extends FieldValues> {
     register: UseFormRegister<T>;
     name: Path<T>;
-    label: any;
+    label: React.ReactNode;
     error?: FieldError;
     required?: boolean;
 }
