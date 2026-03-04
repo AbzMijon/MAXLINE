@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MAXLINE/static/css/main.4ea04a0c.css",
+    "main.css": "/MAXLINE/static/css/main.249765f1.css",
     "main.js": "/MAXLINE/static/js/main.082f6caa.js",
     "static/css/914.c80d5cde.chunk.css": "/MAXLINE/static/css/914.c80d5cde.chunk.css",
     "static/js/914.10f6afc9.chunk.js": "/MAXLINE/static/js/914.10f6afc9.chunk.js",
@@ -82,7 +82,7 @@
     "static/media/belarusIcon.svg": "/MAXLINE/static/media/belarusIcon.70c5983745d9ffb57e99ae472933b3e6.svg",
     "index.html": "/MAXLINE/index.html",
     "static/media/checkIcon.svg": "/MAXLINE/static/media/checkIcon.7021c0ac5838653dba6ee98ffc587077.svg",
-    "main.4ea04a0c.css.map": "/MAXLINE/static/css/main.4ea04a0c.css.map",
+    "main.249765f1.css.map": "/MAXLINE/static/css/main.249765f1.css.map",
     "main.082f6caa.js.map": "/MAXLINE/static/js/main.082f6caa.js.map",
     "914.c80d5cde.chunk.css.map": "/MAXLINE/static/css/914.c80d5cde.chunk.css.map",
     "914.10f6afc9.chunk.js.map": "/MAXLINE/static/js/914.10f6afc9.chunk.js.map",
@@ -90,7 +90,7 @@
     "178.c628d217.chunk.js.map": "/MAXLINE/static/js/178.c628d217.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ea04a0c.css",
+    "static/css/main.249765f1.css",
     "static/js/main.082f6caa.js"
   ]
 }
