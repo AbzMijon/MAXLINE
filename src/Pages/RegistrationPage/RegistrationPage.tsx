@@ -12,22 +12,24 @@ import registrationSphere from '../../assets/imgs/registrationSphere.png';
 export default function RegistrationPage() {
     return (
         <section className={styles.registartionPage}>
-            <div className={styles.registartionPage__registrAside}>
-                <RegistrForm />
-            </div>
             <img src={registrationBG} alt="" className={styles.registartionPage__bgWrapper} />
-            <div className={styles.registartionPage__logo}>
-                <img src={logo} alt="" />
-            </div>
-            <div className={styles.registartionPage__freespins}>
-                <FreespinsBlock />
-            </div>
-            <img src={registrationBlueGold} alt="" className={styles.registartionPage__blueGold} />
-            <img src={registrationGold} alt="" className={styles.registartionPage__gold} />
-            <img src={zeusImg} alt="" className={styles.registartionPage__zeus} />
             <img src={registrationSphere} alt="" className={styles.registartionPage__sphere} />
-            <div className={styles.registartionPage__blueBlur}></div>
-            <div className={styles.registartionPage__purpleBlur}></div>
+            <div className={styles.registartionPage__container}>
+                <div className={styles.registartionPage__registrAside}>
+                    <RegistrForm />
+                </div>
+                <div className={styles.registartionPage__logo}>
+                    <img src={logo} alt="" />
+                </div>
+                <div className={styles.registartionPage__freespins}>
+                    <FreespinsBlock />
+                </div>
+                <img src={registrationBlueGold} alt="" className={styles.registartionPage__blueGold} />
+                <img src={registrationGold} alt="" className={styles.registartionPage__gold} />
+                <img src={zeusImg} alt="" className={styles.registartionPage__zeus} />
+                <div className={styles.registartionPage__blueBlur}></div>
+                <div className={styles.registartionPage__purpleBlur}></div>
+            </div>
         </section>
     )
 }
